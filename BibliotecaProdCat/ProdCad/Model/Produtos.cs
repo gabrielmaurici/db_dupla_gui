@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProdCad.Model
 {
-    class Produtos : BaseModel
+    public class Produtos : BaseModel
     {
         public string Nome { get; set; }
         public decimal Valor { get; set; }

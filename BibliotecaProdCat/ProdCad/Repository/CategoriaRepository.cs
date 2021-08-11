@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace ProdCad.Repository
 {
-    class CategoriaRepository : BaseRepository<Categorias>
+    public class CategoriaRepository : BaseRepository<Categorias>
     {
+
     }
 }

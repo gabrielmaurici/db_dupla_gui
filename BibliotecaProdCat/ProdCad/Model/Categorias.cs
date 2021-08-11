@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProdCad.Model
 {
-    class Categorias : BaseModel
+    public class Categorias : BaseModel
     {
         public string Nome { get; set; }
         public string Descricao { get; set; }

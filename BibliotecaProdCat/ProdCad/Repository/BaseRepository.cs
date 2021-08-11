@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProdCad.Repository
 {
-    class BaseRepository<T> where T:BaseModel
+    public class BaseRepository<T> where T:BaseModel
     {
         public void Create(T model) 
         {

@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace ProdCad.Repository
 {
-    class ProdutoRepository : BaseRepository<Produtos>
+    public class ProdutoRepository : BaseRepository<Produtos>
     {
+
     }
 }
